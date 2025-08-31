@@ -1,0 +1,193 @@
+/* --- Estilos Generales --- */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    background-color: #f0fdf4; /* Fondo verde muy claro, casi blanco */
+    color: #333; /* Texto oscuro para buena legibilidad */
+    line-height: 1.6;
+}
+
+/* --- Encabezado y Navegación --- */
+header {
+    background-color: #ffffff; /* Blanco para el encabezado */
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo h2 {
+    color: #2e8b57; /* Verde mar medio para el logo */
+    margin: 0;
+    font-size: 1.8rem; /* Un poco más grande para el logo */
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+header nav ul li {
+    margin-left: 25px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #007bff; /* Azul brillante para los enlaces de navegación */
+    font-weight: bold;
+    font-size: 1rem;
+    transition: color 0.3s ease; /* Transición suave al pasar el mouse */
+}
+
+header nav a:hover {
+    color: #9acd32; /* Verde limón al pasar el mouse */
+}
+
+/* --- Contenido Principal y Secciones --- */
+main {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 0 2rem;
+}
+
+section {
+    margin-bottom: 3rem;
+    padding: 2.5rem; /* Un poco más de padding */
+    background-color: #ffffff;
+    border-radius: 10px; /* Bordes un poco más redondeados */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05); /* Sombra más suave */
+}
+
+h1, h2 {
+    color: #0056b3; /* Azul más oscuro para títulos */
+    text-align: center;
+    margin-bottom: 1.8rem; /* Más espacio debajo de los títulos */
+}
+
+/* --- Sección Hero (Bienvenida) --- */
+.hero {
+    text-align: center;
+    background-color: #e6ffee; /* Fondo suave para el hero */
+    padding: 4rem 1rem; /* Más padding para el hero */
+    border-radius: 10px;
+}
+
+.hero p {
+    color: #555; /* Texto del párrafo un poco más claro */
+    font-size: 1.1rem;
+    max-width: 700px;
+    margin: 1rem auto 2rem auto;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: #9acd32; /* Verde limón para el botón CTA */
+    color: #ffffff;
+    padding: 14px 30px; /* Botón un poco más grande */
+    text-decoration: none;
+    border-radius: 30px; /* Bordes muy redondeados (píldora) */
+    font-weight: bold;
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border: none; /* Sin borde */
+}
+
+.cta-button:hover {
+    background-color: #76c221; /* Verde limón un poco más oscuro al pasar el mouse */
+    transform: translateY(-2px); /* Pequeño efecto de elevación */
+}
+
+/* --- Sección de Servicios --- */
+.servicios-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 25px; /* Más espacio entre tarjetas */
+    text-align: center;
+    flex-wrap: wrap; /* Permite que las tarjetas se envuelvan en pantallas pequeñas */
+}
+
+.servicio-card {
+    flex-basis: 30%; /* Tamaño de las tarjetas */
+    min-width: 280px; /* Ancho mínimo para que no se hagan demasiado pequeñas */
+    padding: 2rem;
+    border-left: 6px solid #ffda47; /* Borde izquierdo amarillo vibrante */
+    border-radius: 8px;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.servicio-card:hover {
+    transform: translateY(-5px); /* Efecto de elevación al pasar el mouse */
+    box-shadow: 0 6px 15px rgba(0,0,0,0.1);
+}
+
+.servicio-card h3 {
+    color: #0056b3; /* Azul oscuro para los títulos de servicio */
+    margin-bottom: 1rem;
+    font-size: 1.4rem;
+}
+
+/* --- Formulario de Contacto --- */
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 650px; /* Un poco más ancho */
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #f8fcfd; /* Fondo muy claro para el formulario */
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.04);
+}
+
+form input,
+form textarea {
+    padding: 12px;
+    margin-bottom: 1.2rem;
+    border: 1px solid #cceeff; /* Borde azul claro */
+    border-radius: 6px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input:focus,
+form textarea:focus {
+    border-color: #007bff; /* Borde azul brillante al enfocar */
+    box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25); /* Sombra suave de enfoque */
+    outline: none; /* Elimina el contorno predeterminado del navegador */
+}
+
+form button {
+    background-color: #007bff; /* Azul vibrante para el botón de enviar */
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 30px; /* Bordes muy redondeados */
+    cursor: pointer;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-top: 1rem;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+form button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+    transform: translateY(-2px);
+}
+
+/* --- Pie de Página --- */
+footer {
+    text-align: center;
+    padding: 1.8rem;
+    background-color: #003d82; /* Azul marino oscuro para el footer */
+    color: #e0f2f7; /* Texto muy claro para contraste */
+    margin-top: 4rem;
+    font-size: 0.9rem;
+}
