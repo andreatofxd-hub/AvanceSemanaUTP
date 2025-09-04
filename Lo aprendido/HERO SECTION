@@ -1,0 +1,47 @@
+Al interactuar con Html y CSS, pude visualizar una sección importante visualmente de una pagina web. la hero section.
+> 
+¿Qué es un Hero Section?
+Es la primera sección visual grande de una página web. Su objetivo es captar la atención con 3 elementos clave:
+* Un fondo impactante: Una imagen o un color que llene la pantalla.
+* Un mensaje claro: Un título grande y directo.
+* Una llamada a la acción: Un botón que invita a hacer algo.
+
+Ejemplo:
+Codigo de html:
+<section class="hero">
+  <div class="hero-content">
+    <h1>El Título Principal</h1>
+    <p>Una descripción corta que apoya al título.</p>
+    <a href="#" class="hero-button">Llamada a la Acción</a>
+  </div>
+section>
+Codigo de CSS:
+/* 1. Hacer que la sección ocupe toda la pantalla */
+.hero {
+  height: 100vh; /* Ocupa el 100% de la altura de la pantalla */
+  background-image: url('URL_DE_TU_IMAGEN_AQUÍ');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 2. Centrar el contenido de texto */
+.hero-content {
+  height: 100%; /* Ocupa toda la altura del padre */
+  display: flex;
+  flex-direction: column; /* Pone los elementos uno debajo del otro */
+  justify-content: center; /* Centra verticalmente */
+  align-items: center;     /* Centra horizontalmente */
+  color: white;
+  text-align: center;
+}
+
+/* 3. Estilo básico para el botón */
+.hero-button {
+  padding: 10px 20px;
+  background-color: #f39c12; /* Color naranja */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+Este código crea una sección a pantalla completa con una imagen de fondo. El título, el texto y el botón aparecen perfectamente centrados sobre la imagen, creando un impacto visual limpio y profesional.
