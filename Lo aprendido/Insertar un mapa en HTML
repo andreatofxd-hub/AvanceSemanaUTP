@@ -1,0 +1,10 @@
+Etiqueta usada: <iframe>
+
+Función: Permite insertar contenido externo en la página (ejemplo: mapas de Google, videos de YouTube, documentos, etc.)
+
+Sintaxis básica:
+
+
+<iframe src="URL_DEL_CONTENIDO" width="ancho" height="alto"></iframe>
+
+Nota: Para un mapa de Google Maps, la URL se obtiene desde la opción “Compartir > Insertar un mapa” en Google Maps.
