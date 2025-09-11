@@ -1,0 +1,26 @@
+Propiedad usada: background-color (u otras como color, border, etc.)
+
+Pseudoclases más usadas:
+
+:hover → cuando el mouse pasa por encima.
+
+:active → cuando el botón se presiona.
+
+:focus → cuando el botón está seleccionado (ejemplo con teclado).
+
+
+Sintaxis básica:
+
+
+button {
+  background-color: blue;   /* color normal */
+  color: white;
+}
+
+button:hover {
+  background-color: green;  /* al pasar el mouse */
+}
+
+button:active {
+  background-color: red;    /* al hacer clic */
+}
