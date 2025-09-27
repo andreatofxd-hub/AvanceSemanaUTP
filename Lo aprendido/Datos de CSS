@@ -1,0 +1,13 @@
+## 🌐 Dato curioso de CSS
+
+En CSS, la propiedad `border-radius: 50%` convierte **cualquier elemento cuadrado en un círculo perfecto**.  
+
+Ejemplo:  
+
+```css
+.circulo {
+  width: 100px;
+  height: 100px;
+  background: #4facfe;
+  border-radius: 50%;
+}
