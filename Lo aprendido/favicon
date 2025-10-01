@@ -1,0 +1,3 @@
+<a href="/"><img src="favicon.png" alt="Inicio" width="32"></a> <!-- Favicon clickeable que redirige al home -->
+
+> 🔹 Este ejemplo muestra cómo usar el favicon como un botón de inicio: al hacer clic en el ícono, el usuario vuelve a la página principal (/).
