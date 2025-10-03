@@ -1,0 +1,15 @@
+Hoy aprendí a crear un efecto de elevación interactivo solo con CSS.
+
+La clave es combinar :hover con transform: translateY() para mover un elemento verticalmente. Lo genial de transform es que no afecta la posición de los demás elementos, así que no rompe el layout.
+
+El toque final lo da transition para que el movimiento sea suave.
+
+CSS
+
+.elemento {
+  transition: transform 0.3s ease;
+}
+
+.elemento:hover {
+  transform: translateY(-8px);
+}
