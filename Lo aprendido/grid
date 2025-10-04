@@ -1,0 +1,7 @@
+/* Centrar cualquier cosa fácil con CSS Grid */
+.container {
+  display: grid;
+  place-items: center;
+}
+
+👉 place-items: center; centra tanto vertical como horizontalmente, sin necesidad de usar flexbox, margin ni posiciones raras.
