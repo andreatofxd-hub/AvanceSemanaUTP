@@ -1,0 +1,10 @@
+keyframes en CSS sirve para crear animaciones definiendo cómo cambia un elemento a lo largo del tiempo.
+Por ejemplo:
+
+@keyframes latido {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+.corazon {
+  animation: latido 1s infinite;
+}
