@@ -1,0 +1,13 @@
+En CSS, puedes hacer que un diseño sea responsive usando media queries, por ejemplo:
+
+@media (max-width: 768px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+👉 Esto significa que cuando la pantalla mida 768 px o menos (como un celular o tablet), el tamaño del texto cambiará a 14 px.
+
+💡 Tip extra: Usa etiquetas meta como esta en tu HTML para que el diseño se adapte correctamente:
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
