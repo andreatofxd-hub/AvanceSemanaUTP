@@ -1,0 +1,5 @@
+Variable principales en JavaScript
+
+Var --> palabra original para crear una variable ya que permite declarar la misma variable varias veces y reasignarle valores
+Let --> let tiene ámbito de bloque. Esto significa que una variable declarada con let sólo está disponible dentro del bloque en el que se declara. Si se declara una variable dentro de un bloque o bucle, no estará disponible fuera de ese bloque o bucle.
+Const -->  se utiliza para declarar constantes. Una constante es un valor que no puede ser reasignado una vez que ha sido declarado. Esto puede ser útil cuando se trabaja con valores que nunca deben cambiar, como las constantes matemáticas o las opciones de configuración.
