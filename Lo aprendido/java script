@@ -1,0 +1,10 @@
+Detectar un clic en un botón (HTML + JS)
+
+
+
+<button id="btn">Haz clic</button>
+<script>
+  document.getElementById("btn").addEventListener("click", function() {
+    alert("¡Botón presionado!");
+  });
+</script>
