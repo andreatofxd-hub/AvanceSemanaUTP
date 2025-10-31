@@ -1,0 +1,9 @@
+Funciones
+Las funciones son bloques de código que realizan una tarea específica. En JavaScript, puedes definir una función utilizando la palabra clave function, seguida de un nombre para la función, y luego un conjunto de paréntesis () que pueden contener parámetros. Por ejemplo:
+
+function saludo() {
+  alert("¡Hola, mundo!");
+}
+Y luego puedes llamar a esta función desde tu código HTML utilizando un evento, como un clic de botón:
+
+<button onclick="saludo()">Haz clic aquí</button>
