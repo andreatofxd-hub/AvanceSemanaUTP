@@ -1,0 +1,5 @@
+Puedes usar JavaScript dentro de un archivo HTML para hacer que la página reaccione; por ejemplo:
+
+<button onclick="alert('¡Hola!')">Haz clic</button>
+
+👉 HTML crea el botón, y JavaScript hace que al hacer clic muestre el mensaje.
