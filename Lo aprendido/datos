@@ -1,0 +1,7 @@
+<form onsubmit="if(!nombre.value||!correo.value){alert('Completa todo');return false}">
+  <input id="nombre" placeholder="Nombre">
+  <input id="correo" type="email" placeholder="Correo">
+  <button>Enviar</button>
+</form>
+
+✅ Valida directamente en una sola línea: si falta algo, muestra una alerta.
